@@ -1,0 +1,181 @@
+body { padding-bottom: 70px; }
+
+a.btn.btn-success,
+#login {
+    color: white;
+}
+
+.navbar-brand:hover,
+#login:hover {
+    color: #5cb85c !important;
+}
+
+.container-fluid {
+    padding-left: 2em;
+}
+
+#signup {
+    border: 1px solid #5cb85c;
+    margin-right: 1em;
+}
+
+footer h4 {
+    padding: 0.5em 0;
+    text-align: center;
+    font-weight: 200;
+    color: #5cb85c;
+}
+
+.submit,
+.submit:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.photo {
+    border-left: 5px solid #5cb85c;
+    padding-left: 5em;
+    padding-right: 0;
+}
+
+.student-name {
+    font-size: 2.5em;
+    color: #5cb85c;
+    margin: 0;
+    vertical-align: -100%;
+}
+
+.student-name:hover {
+    color: #5cb60c;
+}
+
+.row {
+    margin-bottom: 3em;
+}
+
+audio {
+    width: 100%;
+    color: #5cb85c;
+
+}
+
+.work {
+    /*padding-left: 1.5em;*/ 
+}
+
+.work h2 {
+    margin-top: 0;
+}
+
+.form-control {
+    color: black;
+    border-color: #5cb85c;
+    margin-right: 0;
+}
+
+.homework {
+    padding: 0 1.5em;
+}
+
+.homework::after {
+    content: '';
+    width: 10em;
+    border-bottom: 2px solid #5cb85c;
+    display: block; 
+    margin: 4em auto 1em;
+}
+
+h2 .create-new {
+    display: inline;
+    padding: 0;
+}
+
+.comment {
+    padding: 1em 0 1em 1.5em;
+
+}
+
+/* Form */
+
+.form-horizontal {
+    margin-top: 1em;
+}
+
+.form-group label span {
+    font-weight: bold;
+}
+
+
+.marking-name {
+    border-bottom: 5px double #e7e7e7;
+    padding: 0 0 5px 2em;
+    text-transform: uppercase;
+}
+
+.marking-name img {
+    margin-right: 1em;
+}
+
+.feedback {
+    padding-right: 0;
+}
+
+.error {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    color: #D0104C;
+    text-align: center;
+    background-color: #F19483;
+    font-size: 1.1em;
+}
+
+
+/* homework view */
+.label {
+    font-size: 1.2em;
+}
+
+.mark-span {
+    margin-left: 0.5em;
+    vertical-align: .9em;
+}
+
+.btn-comment {
+    margin-top: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
+
+.owner-comment {
+    border-left: 5px solid #BDC0BA;
+}
+/* students view */
+.motto blockquote {
+    margin: 1.7em auto 0;
+}
+
+
+/* pagination */
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover,
+.pagination>.active>span, 
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: #DCB879;
+    /*border-color: #5cb85c;*/
+    border: none;
+}
+
+.pagination>li>a, 
+.pagination>li>span {
+    color: #DCB879;
+}

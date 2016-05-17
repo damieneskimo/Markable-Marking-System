@@ -10,6 +10,17 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
+## For Testing Purpose
+- Download the ropository to your local drive
+- Open your command line tool, in the project root directory run composer install
+- Run php artisan migrate
+- You can now register with any fake email or you can log in with the following credenticals:
+  student: 
+  email: damien@test.com   password: password
+  tutor:
+  email: tutor@test.com    password: password
+
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).

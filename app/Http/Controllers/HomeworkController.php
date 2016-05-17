@@ -50,7 +50,7 @@ class HomeworkController extends Controller
         // validation
         $this->validate($request, [
             'title' => 'required|max:255',
-            'content' => 'required|unique:homeworks, content'
+            'content' => 'required'
         ]);
 
         if($this->auth_user->is_tutor) {
@@ -98,7 +98,7 @@ class HomeworkController extends Controller
         // validation
         $this->validate($request, [
             'title' => 'required|max:255',
-            'content' => 'required|unique:homeworks, content'
+            'content' => 'required'
         ]);
 
         $homework = Homework::find($homework_id);

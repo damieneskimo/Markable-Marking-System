@@ -105,7 +105,7 @@
                                     <!-- comment modal -->
                                     @include('includes.edit_comment_modal')
 
-                                @endif<!-- $comment->homework_id -->
+                                @endif<!-- $comment->homework_id = $homework->id -->
                             
                             @endforeach  <!-- $comments -->
                             

@@ -14,10 +14,15 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 - Download the ropository to your local drive
 - Open your command line tool, in the project root directory run composer install
 - Run php artisan migrate
-- You can now register with any fake email or you can log in with the following credenticals:
-  student: 
+- You can now register with any fake email, but if you want to see the tutor view, you will need to register a user and change the user's is_tutor to be 1(true) in the database
+
+## Demo 
+http://markable-marking-system.herokuapp.com
+
+you can log in with the following credenticals or register a new user:
+  ###student: 
   email: damien@test.com   password: password
-  tutor:
+  ###tutor:
   email: tutor@test.com    password: password
 
 

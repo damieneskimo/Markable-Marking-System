@@ -25,7 +25,7 @@ class StudentsController extends Controller
      */
     public function index()
     {
-        
+
         $users = User::where('is_tutor', 0)
                         ->orderBy('name', 'asc')
                         ->paginate(6);
@@ -46,13 +46,13 @@ class StudentsController extends Controller
         if(!$homeworks) {
             return null;
         }
-                                
+
         // return $homeworks;
 
         return view('homeworks', [
             'user'      => $user,
             'homeworks' => $homeworks,
-        ]);        
+        ]);
     }
 
 }

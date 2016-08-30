@@ -16,13 +16,13 @@
               <input id="homework-id" type="hidden" class="form-control" value="{{ $comment->homeword_id }}">
               <input id="user-id" type="hidden" class="form-control" value="{{ $comment->user_id }}">
               <input id="comment-id" type="hidden" class="form-control" value="{{ $comment->id }}">
-            </div> 
+            </div>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-success btn-comment-update">Save changes</button>
         </div>
       </form>
-    </div>/.modal-content
-  </div>/.modal-dialog
+  </div> <!-- .modal-content -->
+  </div> <!-- .modal-dialog -->
 </div><!-- /.modal -->

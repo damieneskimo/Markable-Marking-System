@@ -8,7 +8,7 @@
 
 @foreach($users as $user)
     
-     <div class="row">
+    <div class="row">
         <div class="col-xs-6 col-md-2 col-md-offset-1">
             <a class="student-name" href="{{ action('StudentsController@show', ['id' => $user->id]) }}">
                 <img class="img-responsive img-circle img-thumbnail" src="{{ $user->thumbnail }}" alt="photo of student">
